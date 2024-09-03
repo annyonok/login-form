@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма аутентификации</title>
+    <link rel="icon" href="public/security_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="background-video">
+        <source
+            src="public/coverr.mp4"
+            type="video/mp4" />
+    </video>
+
+    <div class="container">
+        <h1 class="form__title">Please Login</h1>
+        <form id="login-form">
+            <div class="form__control">
+                <input type="text" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="form__control">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+
+            <button class="form__btn" type="submit">Login</button>
+
+            <p class="form__text">Don't have an account? <a class="form__link" href="#">Register</a> </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
